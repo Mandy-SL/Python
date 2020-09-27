@@ -42,9 +42,9 @@ class Interface():
         print(cls.has_characters)
 
 
-    def generate_password(self, lenght):
+    def generate_password(self, length):
         sequence = PasswordGenerator.gen_sequence(list(self.has_characters.values()))
-        print(PasswordGenerator.gen_password(sequence, lenght))
+        print(PasswordGenerator.gen_password(sequence, length))
 
 def list_to_vertical_string(list):
     to_return =""
